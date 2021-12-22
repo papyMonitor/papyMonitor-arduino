@@ -102,20 +102,20 @@ void loop() {
 
     // Main program
 
-    // We increment the float value from 0 to 100 forever
+    // We increment the myFloat value from 0 to 100 forever
     // in step of 0.01
     myFloat += 0.01f;
     if (myFloat >= 100.0f)
       myFloat = 0.0f;
 
-    // We increment the Byte value from 0 to 255 forever
+    // We increment the myByte value from 0 to 255 forever
     myByte++;
 
     // You need only this for the monitoring to work :)
-    // This is a call to the library. For simplicity, call
+    // This is a call to the library. For simplicity, the call
     // act like a timer, it is blocking and unblock every 1ms
     // Further behaviour will be available if requested
-    myMonitor.update();
+    myMonitor.update(); // unblock every 1ms
 }
 ```
 
