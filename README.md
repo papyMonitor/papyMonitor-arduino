@@ -12,7 +12,7 @@ The **papyMonitor** folder is a library that you **must** put on your sketchbook
 
 ## Usage/Documentation
 
-In summary, for each sketch you make (.ino file) you must write a matching .lua file for the papyMonitor-gui to understand what is comming from the serial port
+In summary, for each sketch you make (.ino file) you must write a matching .lua file for the papyMonitor-gui to understand what is coming from the serial port
 
 See the README file in the examples folder to see instructions on how to use the library with your .ino file
 
