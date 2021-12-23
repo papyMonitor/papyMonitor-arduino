@@ -31,25 +31,35 @@ Monitoring myMonitor( &Serial, variables, nbVariables );
 /****************************************************************
  ****************************************************************
  ****************************************************************/
+// a variable not monitored
+uint8_t counter;
 
 void setup() {
   // Initialization of the variables
   myFloat = 0.0f;
   myByte = 0;
+
+  counter = 0;
 }
 
 void loop() {
 
     // Main program
+    if (++counter==10)
+    {
+      // We increment the myByte value from 0 to 255 forever
+      myByte++;
 
+      counter = 0;
+    }
+
+    
     // We increment the myFloat value from 0 to 100 forever
     // in step of 0.01
     myFloat += 0.01f;
     if (myFloat >= 100.0f)
       myFloat = 0.0f;
 
-    // We increment the myByte value from 0 to 255 forever
-    myByte++;
 
     // You need only this for the monitoring to work :)
     // This is a call to the library. For simplicity, call
