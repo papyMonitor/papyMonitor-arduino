@@ -8,7 +8,8 @@ There are two folders
 
 The **examples** folder contains various examples and can be downloaded to a folder of your choice
 
-The **papyMonitor** folder is a library that you **must** put on your sketchbook location. To see where your sketchbook location is, open the Arduino IDE, then select Files->Preferences: A popup windows will show in the "Settings" tab, the location under "Sketchbook location". Go to this location and you'll find a folder "libraries". Copy the folder "papyMonitor" inside the folder "libraries". That's it!
+The **papyMonitor** folder is a library that you **must** put on your sketchbook location. To see where your sketchbook location is, open the Arduino IDE then select Files->Preferences: A popup windows will show the "Settings" tab, the location is under the "Sketchbook location".
+Open this location on your disk and you'll find a folder "libraries". Copy the folder "papyMonitor" inside the folder "libraries". That's it!
 
 ## Usage/Documentation
 
