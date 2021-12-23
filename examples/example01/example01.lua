@@ -100,6 +100,11 @@ cfg:Variable({
     Name="My float",
     Type= "f",
     Index= 0,
+    Data = {
+        {
+            CanPlot=true,
+        }
+    }
 })
 
 ---------------
@@ -107,6 +112,11 @@ cfg:Variable({
     Name="My byte",
     Type= "B",
     Index= 1,
+    Data = {
+        {
+            CanPlot=true,
+        }
+    }   
 })
 
 
