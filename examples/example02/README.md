@@ -1,0 +1,1 @@
+![papyMonitor](example02.gif)
