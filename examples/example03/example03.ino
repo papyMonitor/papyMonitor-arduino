@@ -1,11 +1,7 @@
+//////////////////////////////////////
+// See "The Target files" documentation
+//////////////////////////////////////
 
-/*
- * Example that
- * 
- * read analog port A0 to A5
- * 
- * To papyMonitor
- */
 #include "papyMonitor.hpp"
 
 float analogValues[6];
@@ -19,19 +15,16 @@ sVariables_t variables[] = {
   { &analogValues[5], eComDataType_Float, eReportOn, NULL }, // index 5 in the .lua file
 };
 
-/****************************************************************
- *****   Monitoring initialisation, do not modify this !!!  *****
- ****************************************************************/
 const uint8_t nbVariables = sizeof( variables ) / sizeof( sVariables_t );
 Monitoring myMonitor( &Serial, variables, nbVariables );
-/****************************************************************
- ****************************************************************
- ****************************************************************/
+
 void setup() {
 
 }
 
 void loop() {
+
+    // Other code here
 
     analogValues[0] = (float)analogRead(A0);
     analogValues[1] = (float)analogRead(A1);
