@@ -9,4 +9,5 @@ Each example comes with a .lua file that has to be loaded to the papyMonitor app
 ## Installation
 
 Read the "Installation and usage" in the documentation to install papyMonitor as a library
+
 [papyMonitor documentation](https://papymonitor.github.io/papyMonitor-doc)
